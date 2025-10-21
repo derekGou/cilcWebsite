@@ -17,15 +17,12 @@ const Programmes = () => {
                         <p>Related crafts and activities reinforce the key learnings and create meaningful connections to sustain an increased understanding of the value of diversity.</p>
                         <br/>
                         <div className="flex min-[900px]:flex-row flew-col items-center justify-center w-full gap-8 min-[900px]:gap-16">
-                            <div className="grow">
-                                <img className="w-full" src="flyer/2024FOLFlyer-Final_Pg1.jpg"/>
-                            </div>
-                            <div className="grow">
-                                <img className="w-full" src="flyer/2024FOLFlyer-Final_Pg2.jpg"/>
+                            <div className="grow max-w-128!">
+                                <img className="w-full" src="flyer/2025_Final FOL Flyer.png"/>
                             </div>
                         </div>
                         <br/>
-                        <a className="w-full" href="flyer/2024FOLFlyer-Final.pdf" download>
+                        <a className="w-full" href="flyer/2025_Final FOL Flyer.pdf" download>
                             <button className="w-full bg-cilcdarkblue text-white">Download Flyer</button>
                         </a>
                         <br/>
@@ -33,28 +30,6 @@ const Programmes = () => {
                             <button className="w-full bg-cilcdarkblue text-white">Contact Us</button>
                         </a>
                     </Card>
-                    <br></br>
-                    <Card color="cilcblue">
-                        <h3>Wonders of Water</h3>
-                        <hr className="bg-deepblue"/>
-                        <div className="flex min-[900px]:flex-row flew-col items-center justify-center w-full gap-8 min-[900px]:gap-16">
-                            <div className="grow">
-                                <img className="w-full" src="flyer/The Wonders Of Water 2025 Updated.png"/>
-                            </div>
-                        </div>
-                        <br/>
-                        <a className="w-full" href="flyer/The Wonders Of Water 2025 Updated.pdf" download>
-                            <button className="w-full bg-cilcdarkblue text-white">Download Flyer</button>
-                        </a>
-                        <br/>
-                        <a className="w-full" href="/contact">
-                            <button className="w-full bg-cilcdarkblue text-white">Contact Us</button>
-                        </a>
-                    </Card>
-                </Section>
-                <Section color="cilcgrey">
-                    <h3>Previous Programmes</h3>
-                    <hr className="bg-deepblue"/>
                 </Section>
             </HeaderedPage>
         </>
